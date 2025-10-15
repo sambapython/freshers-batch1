@@ -1,0 +1,12 @@
+1)what python can do
+2)what python can not do
+3)decide one appliction to complete with course
+4)create git account
+5)install anaconda and visualstudio code
+6)compile same python code for python3.13 and pytno3.14
+7) draw memory organization diagram(stack and heap in RAM) for below code
+a=1000
+b=2000
+c=a+b
+d=a
+e=b
