@@ -1,0 +1,67 @@
+Project Idea: Personal Budget Tracker (CLI)
+🧭 Main Menu Options:
+=== Personal Budget Tracker ===
+1. Add Income
+2. Add Expense
+3. View Transactions
+4. View Summary
+5. Export to CSV
+6. Exit
+
+1. Add Income
+
+Fields:
+
+Source (e.g., "Salary", "Freelancing")
+
+Amount
+
+Date (default to today if left blank)
+
+Notes (optional)
+
+2. Add Expense
+
+Fields:
+
+Category (e.g., "Food", "Rent", "Entertainment")
+
+Amount
+
+Date (default to today if left blank)
+
+Notes (optional)
+
+3. View Transactions
+
+Sub-menus:
+
+View All
+
+Filter by Date Range
+
+Filter by Type (Income/Expense)
+
+Filter by Category (for expenses)
+
+4. View Summary
+
+Show:
+
+Total Income
+
+Total Expenses
+
+Net Balance
+
+Highest Expense Category
+
+Monthly Breakdown (if you want to add this later)
+
+5. Export to CSV
+
+Let the user export all transactions or a filtered view to a CSV file.
+
+6. Exit
+
+Optional: Save data to file (JSON or CSV) before exiting.
