@@ -8,6 +8,7 @@
 	virtualenv py11 --python=C:\Users\samba\AppData\Local\Programs\Python\Python311\python.exe
 7) draw memory organization diagram(stack and heap in RAM) for below code
 
+
 a=1000
 b=2000
 c=a+b
@@ -15,6 +16,501 @@ d=a
 e=b
 8) how android os borned
 draw memory organization diagrams for below code.
+1. Convert kilobytes (KB) to megabytes (MB)
+2. Convert total minutes to hours and minutes3. 
+3. Centimeters to Meters and kilometers
+4. Grams to Kilograms
+5. Liters to Milliliters
+6. Kilometers per Hour to Meters per Second
+7. Temperature: Celsius to Fahrenheit
+8. Temperature: Fahrenheit to Celsius
+9. Square Feet to Square Meters
+10.  Monthly to Annual Salary
+11. Write a Python program that takes an integer input from the user and checks whether it is odd or even.
+12. Take two numbers from the user and print the largest number using if-else.
+13. Input a year and check if it's a leap year or not. (Hint: A year is a leap year if divisible by 4, but not by 100 unless also divisible by 400.)
+14. Input marks (0-100). If marks ≥ 35, print "Pass", otherwise "Fail".
+15. Ask the user for their age.If the age is 18 or more, print “Eligible to vote”, otherwise “Not eligible”.
+16. Check if a given number is a multiple of 5 or not.
+17. input three sides of a triangle.A triangle is valid if sum of any two sides is greater than the third side.
+18. Print even numbers from 1 to 20
+19. Print the table of 5 (5 x 1 = 5 ... 5 x 10 = 50)
+20. Sum of numbers from 1 to 100
+21. Print the squares of numbers from 1 to 10
+22. Print a right triangle of stars
+*
+**
+***
+****
+23.Print a square of stars (5x5)
+24. Print numbers like a triangle:
+1
+1 2
+1 2 3
+1 2 3 4
+25.Count how many even digits are in a number
+26.Find the largest digit in a number
+27. Find sum of squares from 1 to 10. if the number is divisible by 3, then dont add that to sum.
+28. Print numbers from 10 to 1 using a for loop.
+29. Print even numbers from 1 to 20.
+30. Print odd numbers from 1 to 20.
+31. Print the multiplication table of a given number (e.g. 5).
+32. Print numbers from 1 to 100, but stop if you reach 37 (break).
+33. Print numbers from 1 to 20, but skip multiples of 3 (continue)
+34. Ask user for a number, and print its factorial using a loop.
+35. Print all numbers from 1 to 50 that are divisible by 7.
+36. Count how many numbers between 1 and 100 are divisible by 2 and 5.
+37. Print numbers from 1 to 30, but only if not divisible by 3 or 5.
+38. Loop from 1 to 50 and print:
+
+	"Fizz" if divisible by 3,
+
+	"Buzz" if divisible by 5,
+
+	"FizzBuzz" if divisible by both.
+
+39.Print all digits of a given number (e.g. 1234 → 1 2 3 4).
+
+40.Reverse a number using a loop (e.g. 1234 → 4321).
+
+41.Find the sum of digits of a number using a loop.
+
+42.Print the first 10 Fibonacci numbers using a loop.
+
+43.Loop through a string and print each character.
+
+44.Count vowels and consonants in a given string.
+
+45.Find if a number is prime using a loop.
+
+46.Print all prime numbers between 1 to 100.
+
+47.Ask for 5 numbers and print their average using a loop.
+
+48.Input numbers until the user enters 0, then print the sum.
+
+49.Print multiplication table from 1 to 5 (nested loop).
+
+50.Print pattern:
+A
+AB
+ABC
+ABCD
+
+51. Find max number from a list using a loop.
+
+52.Find how many times each element appears in a list (frequency).
+
+53.Loop through a list of strings and print lengths of each.
+
+54.Check if a list contains duplicates using a loop.
+
+55.Use break to exit loop when negative number is found in list.
+
+56.Use continue to skip 0s in list and compute average.
+
+57. Number guessing game: Loop until user guesses a number between 1–10.
+
+58. ATM Simulation: Loop menu for withdraw, deposit, check balance, exit.
+
+59. Password check: Loop until user inputs correct password (limit 3 tries).
+
+60. Print pattern of stars forming a right triangle.
+
+61.Print pattern of stars forming a pyramid (use nested loop).
+
+62.Find all pairs in list whose sum is equal to given number.
+
+63.Count number of words in a sentence.
+
+64.Find frequency of each character in a string.
+
+65.Create a list of prime numbers under 100 using a loop.
+
+66.Loop through a list of names and print only names starting with vowel.
+
+67.Write a function that takes two numbers and returns their sum.
+
+68.Write a function to calculate the square of a number using return.
+
+69.Write a function to find the maximum of three numbers.
+
+70.Write a function that checks if a number is even or odd, and returns a string.
+
+71.Write a function that returns the factorial of a number using a loop.
+Check Port Availability
+Function that takes a hostname and port, returns True if the port is open.
+
+71.Validate IP Address
+Function that accepts an IP address string and returns True if valid.
+
+72.Check File Exists
+Function that takes a file path and returns True/False depending on file presence.
+
+73.Convert Size in MB to GB
+Function that returns GB when MB is passed.
+
+74.Check Service Status (Dummy)
+Takes service name and returns "Running" or "Stopped" (mock behavior).
+
+75.Ping Host
+Function that pings a host. Optional: count=4.
+
+76.Check Disk Space
+Function that checks disk space on a mount point. Optional threshold warning (default 80%).
+
+77.Create Log File
+Takes filename and log level (default='INFO'), returns log file path.
+
+78.Add User to Group
+Takes username and group. Default group = devops.
+
+79.Run Shell Command
+Accepts command string, optional capture_output=True.
+
+80.Bulk Directory Creator
+Function that takes multiple folder names using *args, creates them under /tmp.
+
+81.Install Multiple Packages
+Takes any number of package names and prints simulated install commands.
+
+82.Check Multiple URLs for 200 OK
+Takes multiple URLs and returns a list of valid ones.
+
+83.Sum of File Sizes
+Takes multiple file paths, returns total size in MB.
+
+84.Batch User Creator
+Function to create users given a list of usernames (*args).
+
+85.Configure Server Settings
+Accepts config keys (e.g., port=8080, debug=True), prints applied settings.
+
+86.Log Metrics
+Accepts dynamic metric key-value pairs and prints them as JSON.
+
+87.Build Docker Run Command
+Accepts options like image="nginx", ports="80:80" and returns docker run string.
+
+88.Create Cloud VM Template
+Function with **kwargs for machine type, region, disk, etc.
+
+89.Environment Variable Exporter
+Accepts env vars like PATH="/usr/bin", JAVA_HOME="/opt/java" and prints export commands.
+
+90. WAP to replace last n occurances of given string.
+source string: apple
+n=2
+replace string=MANGO
+s="apple;orange;grapes;apple;APPLE;ORANGE;GRAPE;apple;grape;apple;apple;apple"
+expected output: "apple;orange;grapes;apple;APPLE;ORANGE;GRAPE;apple;grape;apple;MANGO;MANGO"
+HINT: you can achieve this by using 2 or 3 string functions.
+
+PROJECT
+project title: Grocery Buddy
+grocery store app so users can:
+View available items and their prices.
+Add new items to the store.
+Enter items to purchase.
+Calculate total cost.
+See unavailable items.
+
+Key Concepts to Use:
+Strings: Input parsing, formatting, trimming.
+Lists: Item entry and purchase input.
+Dictionaries: Item storage with prices, item lookups.
+Sets: Removing duplicates in the shopping list.
+Functions: For organizing tasks like adding items, billing.
+
+Features to Implement:
+1. Initial Grocery Items
+Preload the store with a few grocery items and their prices.
+2. Option to Add New Items
+Ask the user if they want to add more items.
+If yes:
+Take the item name and price as input.
+Add to the grocery item collection.
+Prevent duplicate entries.
+3. Display Available Items
+Show all available items and prices after additions.
+4. Take User Order
+Ask the user to enter items to purchase (comma-separated).
+Remove duplicates and handle formatting.
+5. Calculate Bill
+Show price for available items.
+Mark unavailable items.
+Display total bill amount.
+
+Expected Output Example:
+Initial Items:
+Apple - ₹20
+Milk - ₹50
+
+Do you want to add new items? (yes/no): yes
+Enter item name: bread
+Enter item price: 30
+Item added.
+
+Do you want to add another item? (yes/no): no
+
+Available Items:
+Apple - ₹20
+Milk - ₹50
+Bread - ₹30
+
+Enter items to buy (comma separated, quantity : seperated): apple:4, chocolate:5, bread:6, bread:3
+
+Your Bill:
+Apple - ₹20*4=₹80
+Bread - ₹30*9=₹270
+Chocolate - Not Available
+Total Amount: ₹350
+
+
+91. Sort characters in a string alphabetically.
+Convert to list, sort, join back to string.
+
+92. Remove vowels from a string using set subtraction.
+Convert string to list, then to set, subtract vowels, rebuild.
+
+93. Remove duplicates from string while keeping order.
+Use list + set to track seen characters.
+
+94. Find all characters that appear more than once.
+Use dict to count, then filter for count > 1.
+
+95. Find characters present in one string but not another.
+Use set(str1) - set(str2) then convert to string.
+
+96. Replace all special characters with # using list iteration.
+No replace(). Convert to list, use conditionals, rebuild.
+
+97.Group characters in a string by frequency.
+Use dict → group into values → convert to string.
+
+98. Print all unique characters in sorted order of string.
+Use set, convert to list, sort, and then join.
+
+99. Split sentence into words and build dictionary with word lengths.
+str → list → dict with word: len(word)
+
+100. Count how many times each letter appears (ignore case).
+Normalize to lowercase, use dict counter.
+
+101. Convert a sentence to lowercase and extract unique letters.
+Use set, exclude spaces.
+
+102. From a string of key=value pairs, build a dictionary.
+Split string → list → dict.
+
+103. Sort a list of characters and return as string.
+list → sort → str.join
+
+104. Remove duplicates from a list using set, then sort.
+list → set → list → sort
+
+105. Convert a list of digits into a single number string.
+list → map to str → join
+
+106. Group list of integers by even/odd using dict.
+Build dict with "even"/"odd" keys.
+
+107.Find frequency of items in a list (no Counter).
+list → dict manually
+
+108. Convert a list of tuples into a dictionary.
+Use dict constructor or loop.
+
+109. Find most common item in a list using dictionary.
+dict counts → find max value
+
+110. Convert nested list to flat string with delimiter.
+Flatten → convert each to string → join
+
+111. From list of strings, build dictionary with index as key.
+{index: value} structure.
+
+112. Get all numbers from a list > average value.
+Calculate average, use filtering.
+
+113. From a list of strings, extract only those with unique characters.
+Use set for uniqueness check.
+
+114. Convert a list of characters into a string with reversed order using insert.
+Avoid slicing. Use list building.
+
+115. Given a list of key=value strings, build a dictionary.
+Parse each string → dict.
+
+116. Find unique vowels in a sentence.
+str → set → filter vowels.
+
+117. From two strings, find common characters using sets.
+set(str1) & set(str2)
+
+118. Find characters unique to each of two strings.
+symmetric difference
+
+119. From a list of words, find words that appear only once.
+Use dict → track count → set for unique.
+
+120. Convert a list of repeated numbers into a set, then back to sorted list.
+
+121. Find words from a sentence that are longer than 5 and unique.
+str → list → set filter → list.
+
+122. Remove all repeating characters from a string.
+str → dict count → rebuild using list comprehension.
+
+123. Build a set of all lowercase letters used in a string.
+Exclude digits/symbols.
+
+124. Check if all elements of a list are unique using set.
+Compare lengths of list and set.
+
+125. Given a list with repeated tuples, extract unique values across all.
+set of all items in nested tuples.
+
+
+126. Create a character count dictionary from a string.
+
+127.Convert two lists (keys, values) into a dictionary.
+Use zip().
+
+From a dictionary, get all keys with even values.
+dict → list of keys with condition.
+
+Invert a dictionary (keys ↔ values).
+
+Sort dictionary by keys, return key=value string.
+
+From a dictionary of word:count, build a list of repeated words.
+Use filter and list comprehension.
+
+Merge two dictionaries and output as a single string of key-value pairs.
+
+From a string of k1:v1,k2:v2, build a dictionary.
+
+Convert dictionary values to uppercase and keys to lowercase.
+
+Extract all keys from a dictionary whose values are strings.
+
+Group a list of names by starting letter into a dictionary.
+
+Count the frequency of word lengths in a sentence using dict.
+
+Given a list of dicts, merge into one dict (last wins).
+
+Convert dictionary to list of key-value strings and join.
+
+Find the key in a dict with the longest value (if values are strings).
+Count how many times each element appears in a list (dictionary output).
+Hint: list -> dict
+
+Convert a list of strings to a dictionary with string length as values.
+Hint: list -> dict
+
+Sort a list and return as a space-separated string.
+Hint: list.sort() -> str.join()
+
+Reverse a list using slicing and print as string.
+Hint: list[::-1] -> str
+
+Find common elements between two lists using sets.
+Hint: list -> set -> intersection
+
+Convert a list of key-value tuple pairs to a dictionary.
+e.g. [('a',1), ('b',2)] -> {'a':1, 'b':2}
+
+From a list of strings, extract only those that contain digits.
+Use str.isdigit() logic.
+
+Create a set of unique word lengths from a list of words.
+Hint: list -> set(len(word))
+
+Find the longest word in a list and return its index.
+Use max() with key argument.
+
+Convert a list of strings to a dictionary with index as key.
+e.g. ['a', 'b'] -> {0:'a', 1:'b'}
+
+Join characters in a list to form a palindrome string.
+Hint: check if list + list[::-1] -> str is palindrome.
+
+Convert two sets to a list of their union.
+Hint: set.union() -> list
+
+From a list with duplicates, make a set and count unique values.
+Hint: list -> set -> len
+
+Find uncommon characters between two strings using sets.
+Hint: str -> set -> symmetric_difference
+
+Convert a set of strings into a comma-separated string.
+Hint: set -> list -> str.join()
+
+Create a set of vowels from a string.
+Hint: str -> set -> set.intersection(vowels)
+
+Remove all special characters from string using sets.
+Hint: set of allowed -> filter
+
+Check if all words in a sentence are unique using a set.
+Hint: split -> len(list) == len(set)
+
+Create a set of even numbers from a list of integers.
+Hint: list -> set with filter
+
+Convert a list of tuples into a set of unique values.
+e.g. [(1,2), (2,3)] → {1,2,3}
+
+Convert a dictionary’s values into a set of unique items.
+Hint: dict.values() -> set
+
+Convert a string to a dictionary of character frequency.
+Hint: str -> dict
+
+Convert a list of key-value tuples to dictionary.
+Hint: list -> dict
+
+Extract keys from a dictionary and return as a sorted list.
+Hint: dict.keys() -> list -> sort
+
+Convert a dictionary to a string of key=value pairs.
+Hint: dict.items() -> str.join()
+
+From a dictionary, remove entries where value is None.
+Hint: dict comprehension
+
+Merge two dictionaries and convert to a list of tuples.
+Hint: dict -> dict.update() -> items()
+
+Convert dictionary keys to uppercase and return a new dictionary.
+Use dict comprehension
+
+Create a dictionary from two lists – one for keys, one for values.
+Hint: zip()
+
+Get all values from a dictionary and convert to a comma-separated string.
+Hint: dict.values() -> list -> str.join()
+
+Find max value in a dictionary and return key.
+Use max(dict, key=dict.get)
+
+Invert a dictionary (values → keys).
+e.g. {a:1, b:2} → {1:'a', 2:'b'}
+
+Convert nested dictionary into a flat string.
+e.g. {"a": {"x": 1}} → "a.x=1"
+
+Filter dictionary to include only items with numeric values.
+Use isinstance(value, (int, float))
+
+Convert string of key=value lines to a dictionary.
+e.g. "a=1\nb=2" → {'a':1, 'b':2}
+
+For each key-value in a dictionary, convert key to string and value to list.
+e.g. {1: 'hello'} → {'1': ['hello']}
 
 
 
